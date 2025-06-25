@@ -1,0 +1,28 @@
+.{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.parent{
+    background-color: blueviolet;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
+.child1{
+    background-color: brown;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+
+}
+.child2{
+    background-color: brown;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    
+
+}

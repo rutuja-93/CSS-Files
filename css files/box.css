@@ -1,0 +1,19 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+   background-color: blue;
+   border: 2px solid green;
+   height: 50px;
+   width: 50px;
+
+}

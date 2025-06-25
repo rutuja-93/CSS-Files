@@ -1,0 +1,28 @@
+h1{    /* this is tag selector*/
+    color: blueviolet;
+   background-color: aqua;
+   text-align: center;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+.heading{  /* this is class selector */
+    background-color: burlywood;
+    text-align: center;
+}
+#am-h3{  /* this is id selector */
+    background-color: blue;
+    text-align: center;
+}
+.third-h3, .fourt-h4{  /* this is grouping selector */
+background-color: blue;
+color: brown;
+text-align: center;
+}
+#unique{
+text-align:center;
+size: 1cap;
+color: black;
+}
+

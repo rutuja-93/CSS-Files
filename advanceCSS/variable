@@ -1,0 +1,35 @@
+//  CSS Variables=   CSS variables start with - and are usually declared in the :root pseudo-class for global access.
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --font-size: 16px;
+  }
+
+  
+
+
+
+//   Apply variables using the var() function:
+
+body {
+    color: var(--primary-color);
+    font-size: var(--font-size);
+  }
+
+  
+
+
+
+
+
+//   Managing Light and Dark Mode with CSS Variables
+
+Managing Light and Dark Mode with CSS Variables
+
+classList.toggle() in JavaScript
+
+
+
+
+
+//prefers-color-scheme=             This approach automatically applies dark or light mode based on the user’s system settings.

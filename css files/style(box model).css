@@ -1,0 +1,14 @@
+p{
+    border: 1px solid peru;
+    background-color: aqua;
+    margin-bottom: 100px;
+    box-sizing:content-box;
+}
+h2{
+    background-color: blue;
+    border: 2px solid #ffc0cb;
+    padding-left: 10px;
+    padding-top: 40px 100px;
+    margin-left: 20px;
+    border-style: double;
+}
