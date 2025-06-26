@@ -1,0 +1,54 @@
+/* 
+selectors:
+
+1 Child Selector (>) 👶=  Targets the direct children of an parent element.
+eg div > p {
+  color: green;
+}
+
+
+2 Descendant Selector (space) = target all childeren element of an parent
+eg div p {
+  font-style: italic;
+}
+
+
+3 Adjacent Sibling Selector (+) 🤝=   Targets the direct children of an parent element.
+eg h1 + p {
+  color: blue;
+}
+
+
+4 General Sibling Selector (~) 🎯=  Styles and target all childeren element of an parent
+eg h1 ~ p {
+  background-color: lightgrey;
+}
+
+
+5 Pseudo-Classes: Add Some Interactivity
+
+a]  :hover 🖐🏽= Styles elements when you hover over them.
+b]  :focus 👉🏽 = Targets elements when they’re focused (e.g., clicking on an input field).
+c]  :nth-child(n) 🧮 = Styles elements based on their order in a list.
+d]  :first-child and :last-child 🎬 = Targets the first or last child of a parent.
+e]  :checked ✅ = Targets checkboxes or radio buttons that are checked.
+f]  :disabled 🚫 = Styles elements that are disabled (e.g., forms or buttons).
+
+6 Pseudo-Elements: Style Parts of an Element 🎨
+
+a] ::before ⭐ = Adds content before the actual content of an element.
+b] ::after 🌟 = Adds content after the actual content of an element.
+c] ::first-line 📝 = Styles the first line of an element.
+d] ::placeholder 💬 = Styles placeholder text in input fields.
+e] ::selection 🎨🖌️ = Styles the text you select on the page.
+
+7  8. Group Selector (,) = target multiple element ia a group when you want to apply same style on them
+eg h1, h2, p {
+  font-family: Arial;
+}
+
+
+*/
+
+
+

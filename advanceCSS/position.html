@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <img src="img.jpg" alt="nature image" />
+      <h1>I am h1</h1>
+    </div>
+
+    <div
+      style="
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background: lightblue;
+      "
+    >
+      <div
+        style="position: absolute; top: 10px; left: 10px; background: yellow"
+      >
+        I'm inside a relatively positioned parent.
+      </div>
+    </div>
+  </body>
+</html>
