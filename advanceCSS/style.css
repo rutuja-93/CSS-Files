@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .box {
+    background-color: blueviolet;
+    height: 200px; /* Added for visibility */
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      background-color: aqua;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .box {
+      background-color: green;
+    }
+  }
+
+  
+
+
+
+  /* ## ✅ **Summary – Building a Truly Responsive Website**
+
+✔️ **Fluid layouts** with percentages.
+
+✔️ **Use relative units (`em`, `rem`, `vw`, `vh`) for flexible elements.**
+
+✔️ **Flexbox and Grid** for adaptable layouts.
+
+✔️ **Media queries** for screen-specific styles.
+
+✔️ **Mobile-first approach** for better performance.
+
+✔️ **Use the viewport meta tag** to ensure proper scaling.
+
+🚀 **Master these concepts and build websites that look great on any device!** 🎉
+
+---
+
+💡 **Need More Help?** Let me know if you want more details or real-world examples! 😃🔥 */
