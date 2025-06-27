@@ -1,0 +1,86 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* calc */
+  
+  header {
+    height: 13vh;
+    background-color: blue;
+  }
+  
+  .box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition: background-color 1s ease-out 1s;
+  }
+  
+  .box:hover {
+    /* transform: translate(0, 100px); */
+    /* filter: blur(4px); */
+    background-color: red;
+  }
+  
+  img {
+    filter: blur(1px);
+    transition: filter 0.4s ease-in-out;
+  }
+  img:hover {
+    filter: blur(0);
+    border-radius: 10px;
+  }
+  
+  /* 0 - 1 -->  */
+  
+  p {
+    font-size: clamp(24px, 4vw, 44px); /* Scales text dynamically */
+  }
+  
+
+
+
+
+
+/* 
+functions =
+1 calc()
+2 max() & max()
+3 var()
+4 rgb() & rgba()
+5 hsl() & hsla() – Define Colors with Hue & Saturation 🎨
+6  url() – Load External Resources 
+7 clamp() – Set a Dynamic Range 🎚️
+8 linear-gradient() – Create Smooth Color Transitions 🌄
+9 radial-gradient() – Create Circular Gradients 🎨
+10 rotate() – Rotate Elements 🔃
+11 scale() – Resize Elements Dynamically 🔍 
+12 translate() – Move Elements Without Affecting Layout 
+13 cubic-bezier() – Customize Animation Speed 🏎️
+14 blur() – Apply Blurring Effects 🌫️
+15 grayscale() – Convert Elements to Black & White 🖤
+
+
+
+## 🎯 **Key Takeaways**
+
+✔️ **Use `calc()`, `min()`, and `max()`** for dynamic layouts.
+
+✔️ **Use `var()`** to make styles more maintainable.
+
+✔️ **Use `rgb()`, `hsl()`, and gradients** for beautiful designs.
+
+✔️ **Use transforms (`rotate()`, `scale()`, `translate()`)** to create animations.
+
+✔️ **Use filters (`blur()`, `grayscale()`)** to create cool UI effects.
+
+
+
+
+
+
+
+*/
