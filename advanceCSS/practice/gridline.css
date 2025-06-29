@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    
+}
+.box{
+    background-color: green;
+    border: 1px solid black;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.box4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
