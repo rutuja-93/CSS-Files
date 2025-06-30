@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div{
+        
+        font-size: 100px;
+        animation: bounce 2s  linear infinite ;
+    }
+    
+    
+    @keyframes bounce{
+    
+    0%{
+        translate: 0;
+    
+    }
+    25%{
+        translate: 0 -50px;
+    
+    }
+    50%{
+        translate: 0;
+    
+    }
+    75%{
+        translate: 0 50px;
+    
+    }
+    100%{
+        translate: 0;
+        
+    }
+    }
